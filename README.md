@@ -10,7 +10,6 @@ A static, multi-page restaurant website built with **HTML, CSS and Bootstrap 4**
 - bootstrap-social (social media buttons)
 - jQuery, Popper.js
 
-No build step or backend — plain static assets served as-is.
 
 ## Pages
 
@@ -34,20 +33,3 @@ No build step or backend — plain static assets served as-is.
 └── js/dist/                # Individual Bootstrap JS components
 ```
 
-## Running Locally
-
-No dependencies to install — just open `index.html` in a browser, or serve the folder locally:
-
-```bash
-# Python
-python3 -m http.server 8000
-
-# Node
-npx serve .
-```
-
-Then visit `http://localhost:8000`.
-
-## Disclaimer
-
-Sample/learning project for practicing front-end web development with Bootstrap.
